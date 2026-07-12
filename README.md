@@ -1,0 +1,3 @@
+# picture-timebooth
+
+Picture Timebooth is a different kind of social media website, where the main element is a picture that can be looked back upon, record a particular event in history, or serve as a place of memory in time. Other users of the website can comment on the particular picture, referred to as a snapshot, and start a conversation about it. This forms the base of a historical time capsule of sorts, or simply recording an event in time that can be in the future looked back upon. 
