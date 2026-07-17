@@ -6,7 +6,10 @@ Picture Timebooth is a different kind of social media website, where the main el
 - The main feature of the website is that users can upload a photo that ties the user to a special event or moment in time, referred to as a snapshot. 
 - Each snapshot serves the starting point of a conversation with other users regarding that particular moment. 
 - A timeline is shown on a particular snapshot, starting from the time the picture is uploaded to the website, and the current date matched with the most recent comment another user has made on the snapshot.
+- Users can create a collage of photos in a specified order that portrays a historical set of events. This collage of photos is called a timebooth. The photos in a timebooth are displayed in such a way that a clear connection between them is visible.
 - A user interface that blends the lines between the legacy social media websites of the past and a modern ones.
+- User centric login and signup forms that gives the user useful feedback and allows them to input the correct information without cognitive overload. 
+- A relatively painless way for the user to delete their account without scrolling, searching, or fumbling around too much. 
 
 ## User base
 The website mainly aims to pull in people who are looking for a new and different kind of social media website. Where other social websites mainly focus on posting photos or sharing ones thoughts, Picture Timebooth differentiates by allowing users to transform thier photos into a memory in time, and even start a conversation regarding it. There is no particular target demographic based on a particular age group. Rather the solution is being provided to the user base as something new and different. People who like sharing photos and want a single place to save thier most precious moments and memories forms the user base of the website.
@@ -20,6 +23,6 @@ As a new user of the website, the following would be expected:
 - An option to create labels for the snapshot that tells other users what the snapshot is about.
 - An option to add a particular user who commented on my snapshot.
 - I can recieve requests from other users to add them to my buddy list, and when added, I can see their snapshots as well.
-- I am able to collate several pictures and create a timebooth that links the pictures in order, the way I specify with the create timebooth button.
+- I am able to collate several pictures and create a timebooth that links the pictures in order, the way I specify with the create timebooth button. Underneath each timebooth photo, I can see a button to create a short caption to describe the photo.
 - I am able to view comments on the timebooths that I create.
 - It is relatively easy for me to delete any snapshot, timebooth, or any comment I myself have made on them in response to a comment made by another user.
