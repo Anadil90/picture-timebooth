@@ -2,7 +2,7 @@
     justify-content: end;
 }
 
-span {
+.snapshot-label {
     border: 2px solid red;
     width: fit-content;
 }
@@ -35,7 +35,6 @@ p {
     display: flex;
     justify-content: space-around;
     width: 40vw;
-    justify-content: space-around;
 }
 
 .snapshot-timeline {
@@ -45,7 +44,7 @@ p {
 }
 
 /*target elements in .snapshot-timeline together and expand width to fit full container width*/
-.timeline, #timeline-direction-line,
+.timeline,
 .timeline-current, .timeline-end {
     width: 100%;
 }
@@ -63,11 +62,10 @@ p {
 #timeline-direction-line {
     display: flex;
     height:-webkit-fill-available;
-}
-
-hr {
-    transform: rotate(90deg);
     width: 10em;
+    margin: 0 auto;
+    border-left: 2px solid #000;
+    
 }
 
 img {
