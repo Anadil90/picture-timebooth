@@ -1,3 +1,7 @@
+#navbarSupportedContent {
+    justify-content: end;
+}
+
 span {
     border: 2px solid red;
     width: fit-content;
@@ -23,6 +27,37 @@ p {
 
 .snapshot-body {
     display: flex;
+}
+
+/*target elements in .snapshot-timeline together and expand width to fit full container width*/
+.timeline, #timeline-direction-line,
+.timeline-current, .timeline-end {
+    width: 100%;
+}
+
+.snapshot-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+#timeline-title {
+    text-align: center;
+}
+
+#snapshot-date {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#timeline-direction-line {
+    display: flex;
+    height:-webkit-fill-available;
+}
+
+hr {
+    transform: rotate(90deg);
+    width: 10em;
 }
 
 img {
