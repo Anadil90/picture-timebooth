@@ -5,7 +5,7 @@ Picture Timebooth is a different kind of social media website, where the main el
 ## Features
 - The main feature of the website is that users can upload a photo that ties the user to a special event or moment in time, referred to as a snapshot. 
 - Each snapshot serves the starting point of a conversation with other users regarding that particular moment. 
-- A timeline is shown on a particular snapshot, starting from the time the picture is uploaded to the website, and the current date matched with the most recent comment another user has made on the snapshot.
+- A timeline is shown on a particular snapshot, starting from the time the picture is uploaded to the website, till the most recent update regarding the event the user makes.
 - Users can create a collage of photos in a specified order that portrays a historical set of events. This collage of photos is called a timebooth. The photos in a timebooth are displayed in such a way that a clear connection between them is visible.
 - A user interface that blends the lines between the legacy social media websites of the past and a modern ones.
 - User centric login and signup forms that gives the user useful feedback and allows them to input the correct information without cognitive overload. 
@@ -23,6 +23,7 @@ As a new user of the website, the following would be expected:
 - An option to create labels for the snapshot that tells other users what the snapshot is about.
 - An option to add a particular user who commented on my snapshot.
 - I can recieve requests from other users to add them to my buddy list, and when added, I can see their snapshots as well.
+- I can see a timeline on the snapshot that i created that shows me the date i created the snapshot. I also can see a button to create a new event that shows the most recent change since the start of the event. The newly created event shows up on the bottom of the timeline in the snapshot.
 - I am able to collate several pictures and create a timebooth that links the pictures in order, the way I specify with the create timebooth button. Underneath each timebooth photo, I can see a button to create a short caption to describe the photo.
 - I am able to view comments on the timebooths that I create.
 - It is relatively easy for me to delete any snapshot, timebooth, or any comment I myself have made on them in response to a comment made by another user.
