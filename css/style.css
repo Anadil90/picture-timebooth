@@ -19,6 +19,7 @@ p {
     width: 85vw;
     border: 2px solid orange;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .snapshot-image {
@@ -27,17 +28,26 @@ p {
 
 .snapshot-body {
     display: flex;
+    padding: 10px;
+}
+
+.snapshot-header {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+.snapshot-timeline {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
 }
 
 /*target elements in .snapshot-timeline together and expand width to fit full container width*/
 .timeline, #timeline-direction-line,
 .timeline-current, .timeline-end {
     width: 100%;
-}
-
-.snapshot-timeline {
-    display: flex;
-    flex-direction: column;
 }
 
 #timeline-title {
@@ -67,9 +77,4 @@ img {
 .snapshot-feed {
     display: flex;
     flex-direction: column;
-}
-
-.snapshot-header {
-    display: flex;
-    justify-content: space-around;
 }
