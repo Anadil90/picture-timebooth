@@ -1,0 +1,40 @@
+span {
+    border: 2px solid red;
+    width: fit-content;
+}
+
+figure {
+    border: 2px solid green;
+}
+
+p {
+    border: 2px solid blue;
+}
+
+.snapshot-feed {
+    width: 85vw;
+    border: 2px solid orange;
+    margin: 0 auto;
+}
+
+.snapshot-image {
+    width: 50em;
+}
+
+.snapshot-body {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.snapshot-feed {
+    display: flex;
+    flex-direction: column;
+}
+
+.snapshot-header {
+    display: flex;
+    justify-content: space-around;
+}
