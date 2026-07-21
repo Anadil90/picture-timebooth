@@ -1,3 +1,12 @@
+
+.navbar-nav:last-child {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
 #navbarSupportedContent {
     justify-content: end;
 }
@@ -15,10 +24,15 @@ p {
     border: 2px solid blue;
 }
 
+/*styles for the snapshot element*/
 .snapshot-feed {
     width: 85vw;
     border: 2px solid orange;
     margin: 0 auto;
+    padding: 10px;
+}
+
+.snapshot-text-group {/*apply spacing within grouped elements with this class*/
     padding: 10px;
 }
 
@@ -40,7 +54,14 @@ p {
 .snapshot-timeline {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 2px solid gray;
+    width: 60%;
+}
+/*****end of snapshot element style declarations****/
+
+.current-event-date {
+    border: 2px solid crimson;
 }
 
 /*target elements in .snapshot-timeline together and expand width to fit full container width*/
@@ -61,8 +82,8 @@ p {
 
 #timeline-direction-line {
     display: flex;
-    height:-webkit-fill-available;
-    width: 10em;
+    height: 70%;
+    width: 1em;
     margin: 0 auto;
     border-left: 2px solid #000;
     
@@ -76,3 +97,8 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.timeline-current, figure {
+    margin: 0 5px;
+}
+

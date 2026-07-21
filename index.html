@@ -50,16 +50,16 @@
 
     <section class="snapshot-feed"> <!--parent element with main content-->
         <div class="snapshot-header">
-            <span class="snapshot-label">First time</span>
-            <span class="snapshot-label">Trying new things</span>
-            <span class="snapshot-label">Leaving comfort zone</span> 
+            <span class="snapshot-label snapshot-text-group">First time</span>
+            <span class="snapshot-label snapshot-text-group">Trying new things</span>
+            <span class="snapshot-label snapshot-text-group">Leaving comfort zone</span> 
         </div>
         
         <div class="snapshot-body">
             <div class="snapshot-image">
                 <figure>
                     <img src="./images/yiting-he-aNXchknVYYo-unsplash.jpg" alt="Person stepping on scooter and riding it.">
-                    <figurecaption>
+                    <figurecaption class="snapshot-text-group">
                         First time ever
                     </figurecaption>
                 </figure>
@@ -67,12 +67,14 @@
 
             <div class="snapshot-timeline container">
                 <div class="timeline-heading">
-                    <h3 id="timeline-title">Staring point</h3>
+                    <h3 id="timeline-title">Staring point
+                        <span id="snapshot-date" class="snapshot-text-group">
+                            18/06/2026
+                            <span id="snapshot-time">11:02</span>
+                        </span>    
+                    </h3>
 
-                    <span id="snapshot-date">
-                        18/06/2026
-                        <span id="snapshot-time">11:02</span>
-                    </span>
+                    
                     
                     
                 </div> 
@@ -80,7 +82,10 @@
                 <span id="timeline-direction-line"></span>
 
                 <div class="timeline-current">
-                    <p class="current-event">Got my balance and control up to speed. Now i can ride the scooter at 
+                    <p class="current-event snapshot-text-group">
+                        <span class="current-event-date">20/06/2026 14:45</span>
+                        <br>
+                        Got my balance and control up to speed. Now i can ride the scooter at 
                         slow speeds!
                     </p>
                 </div>
@@ -93,7 +98,7 @@
         
         
         <div class="snapshot-footer">
-            <p>The first time i ever got up on a moped and tried to balance myself on it.</p> 
+            <p class="snapshot-text-group">The first time i ever got up on a moped and tried to balance myself on it.</p> 
         </div>
         
     </section>
