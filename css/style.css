@@ -11,14 +11,25 @@
 #navbarSupportedContent {
     justify-content: end;
 }
+
+#hide-links {
+    display: none;
+}
+
+.user-status {
+    display: flex;
+    align-items: center
+}
 /*******end of navbar styles******/
 
 /*styles for the snapshot element*/
 .snapshot-feed {
     width: 75vw;
+    height: 59vh;
     border: 2px solid orange;
     margin: 30px auto;
     padding: 10px;
+    margin: 15px 10px;
 }
 
 .snapshot-label {
@@ -66,6 +77,10 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+.snapshot-footer {
+    margin-top: 20px;
+}
 /*****end of snapshot element style declarations****/
 
 /*timeline element styles*/
@@ -102,18 +117,43 @@ img {
     width: 100%;
 }
 
-
-
 .timeline-current, figure {
     margin: 0 5px;
 }
 /*******end of timeline styles******/
 
-#hide-links {
-    display: none;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    height: 100vh;
+    padding: 10px;
 }
 
-.user-status {
+.buddies {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: 2px solid lightgreen;
     display: flex;
-    align-items: center
+    padding: 10px;
+}
+
+.comments {
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    border: 2px solid cyan;
 }
