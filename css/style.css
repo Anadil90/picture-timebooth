@@ -129,6 +129,7 @@ img {
 }
 /*******end of timeline styles******/
 
+/*sidebar styles*/
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -140,10 +141,22 @@ img {
     top: 7vh;
 }
 
+.sidebar-body, .sidebar-active {
+    border: 2px solid darkcyan;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+ul > .buddy::marker {
+    color: green;
+    font-size: 25px;
+}
+
 .buddies {
     list-style: none;
     padding: 0;
 }
+/********end of sidebar styles******/
 
 #main-container {
     width: fit-content;
