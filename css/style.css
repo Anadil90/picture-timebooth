@@ -4,6 +4,8 @@
     width: 100%;
     position: fixed;
     top: 0;
+    height: 60px;
+    z-index: 3; /*stack navbar on top of other elements*/
 }
 
 .navbar-nav:last-child {
@@ -128,8 +130,11 @@ img {
     display: flex;
     flex-direction: column;
     border: 2px solid orange;
-    height: 100vh;
+    height: 85vh;
     padding: 10px;
+    width: 9vw;
+    position: sticky; /*stick sidebar to the left of the body and allow it to flow with page content*/
+    top: 7vh;
 }
 
 .buddies {
@@ -144,8 +149,9 @@ img {
     display: flex;
     padding: 10px;
     position: relative;
-    bottom: 90vh;
-    left: 10vh;
+    /*position container along the body, next to the sidebar vertically*/
+    bottom: 75vh; 
+    left: 5vh;
 }
 
 .comments {
