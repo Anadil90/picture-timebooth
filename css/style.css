@@ -1,5 +1,11 @@
 
 /*navbar styles*/
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
 .navbar-nav:last-child {
     margin-right: 20px;
 }
@@ -24,8 +30,9 @@
 
 /*styles for the snapshot element*/
 .snapshot-feed {
+    display: flex;
+    flex-direction: column;
     width: 75vw;
-    height: 59vh;
     border: 2px solid orange;
     margin: 30px auto;
     padding: 10px;
@@ -71,11 +78,6 @@ p {
     border: 2px solid gray;
     width: 60%;
 
-}
-
-.snapshot-feed {
-    display: flex;
-    flex-direction: column;
 }
 
 .snapshot-footer {
@@ -135,12 +137,15 @@ img {
     padding: 0;
 }
 
-.container {
-    width: 100%;
+#main-container {
+    width: fit-content;
     height: 100%;
     border: 2px solid lightgreen;
     display: flex;
     padding: 10px;
+    position: relative;
+    bottom: 90vh;
+    left: 10vh;
 }
 
 .comments {
@@ -156,4 +161,11 @@ footer {
     justify-content: space-around;
     height: 70px;
     border: 2px solid cyan;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+aside {
+    width: fit-content
 }
