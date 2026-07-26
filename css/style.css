@@ -70,10 +70,17 @@ p {
     padding: 10px;
 }
 
+#snapshot-user {
+    justify-content: end;
+}
+
 .snapshot-header {
     display: flex;
     justify-content: space-around;
-    width: 40vw;
+    width: 70vw;
+    align-self: center;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .snapshot-timeline {
@@ -87,6 +94,10 @@ p {
 
 .snapshot-footer {
     margin-top: 20px;
+}
+
+.comment-text {
+    padding: 5px;
 }
 /*****end of snapshot element style declarations****/
 
@@ -179,11 +190,17 @@ ul > .buddy::marker {
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content:space-around;
     height: 70px;
     border: 2px solid cyan;
     position: fixed;
     bottom: 0;
     width: 100%;
+
+}
+
+#footer-links  a {
+    text-decoration: none;
+    margin-left: 15px;
 }

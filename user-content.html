@@ -71,20 +71,26 @@
 
             <div class="sidebar-active">
                 <span class="buddy-status">Online</span>
-                <li class="buddy">Mark</li>
-                <li class="buddy">Jill</li>
+                <ul>
+                    <li class="buddy">Mark</li>
+                    <li class="buddy">Jill</li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="container" id="main-container">
         <section class="snapshot-feed"> <!--parent element with main content-->
+            <h4 id="content-label"><!--determines whether content by user is a snapshot or a timebooth-->
+                snapshot
+            </h4>
             <div class="snapshot-header">
                 <span class="snapshot-label snapshot-text-group">First time</span>
                 <span class="snapshot-label snapshot-text-group">Trying new things</span>
-                <span class="snapshot-label snapshot-text-group">Leaving comfort zone</span> 
+                <span class="snapshot-label snapshot-text-group">Leaving comfort zone</span>   
+                <span id="snapshot-user">timebooth265</span> 
             </div>
-            
+
             <div class="snapshot-body">
                 <div class="snapshot-image">
                     <figure>
@@ -138,9 +144,12 @@
     </div>
 
     <footer>
-        <li class="nav-link">Home</li>
-        <li class="nav-link">About</li>
-        <li class="nav-link">Contact</li>
+        <div id="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a>
+        </div>  
     </footer>
     
 </body>
