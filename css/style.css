@@ -14,10 +14,12 @@
 
 .navbar-brand {
     margin-left: 20px;
+    font-size: 20px;
 }
 
 #navbarSupportedContent {
     justify-content: end;
+    font-size: 20px;
 }
 
 #hide-links {
@@ -26,7 +28,8 @@
 
 .user-status {
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-left: 10px;
 }
 /*******end of navbar styles******/
 
@@ -170,8 +173,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-aside {
-    width: fit-content
 }
