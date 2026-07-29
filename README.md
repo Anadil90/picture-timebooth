@@ -27,3 +27,7 @@ As a new user of the website, the following would be expected:
 - I am able to collate several pictures and create a timebooth that links the pictures in order, the way I specify with the create timebooth button. Underneath each timebooth photo, I can see a button to create a short caption to describe the photo.
 - I am able to view comments on the timebooths that I create.
 - It is relatively easy for me to delete any snapshot, timebooth, or any comment I myself have made on them in response to a comment made by another user.
+
+## Project wireframing
+To have a good head start in terms of the direction of the project, a static user page showing the user snapshot element was built and visualized with borders. This helped to create a foundation on which the other pages can de designed.
+![Initial html wireframing draft serving as starting point ](./wireframes/initial-html-wireframe.png)
